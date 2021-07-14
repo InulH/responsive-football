@@ -1,0 +1,275 @@
+/* --fonts--*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* --Common Style-- */
+body{
+font-family: 'Poppins', sans-serif;
+margin: 0;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header{
+    background-color:rgb(65, 42, 196);
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    
+}
+/* --Part-1 Starts-- */
+.part-1{
+   
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+    
+    
+}
+.top-1{font-size: 25px;
+    color: white;
+    padding-left: 200px;
+    width: 485px;
+    height: 230px;
+}
+.link-button{
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(rgb(250, 115, 97),salmon);
+    padding:5px 15px 5px 15px;
+    
+}
+#link-button-size{
+    font-size: 16px;
+}
+.top-2 img{
+    position:absolute;
+    width:332px;
+    height: 275px;
+    left: 875px;
+    top: 70px;
+}
+/* --Part-1 Ends-- */
+
+
+/* --Part-2 Starts-- */
+.player img{
+    height: 150px;
+    width: 175px;
+    margin-left: 20px;
+    overflow: hidden;
+}
+.player img:hover{
+    transform: scale(1.5) rotate(360deg);
+    transition: transform 0.2s ease-in-out;
+
+}
+ .players{ 
+      display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 5px;
+    grid-column-gap: 30px;
+    margin-right: 5px;
+    
+}
+.player-name{
+    margin-left: 20px;
+}
+.blogs{
+    position:relative;
+    width: 200px;
+    margin-left: 12px;
+}
+.player{
+    margin-top: 25px;
+    margin-right: 5px;
+     box-shadow: 5px 3px 5px 3px rgb(153, 147, 147);
+}
+/* --Part-2 Ends-- */
+
+
+/* --Part-3 Starts-- */
+.part-3{
+    display:flex;
+}
+.top-3{
+    font-size: 18px;
+    margin-top: 12px;
+    margin-right: 10px;
+    width: 400px;
+}
+.top-4 img{
+    width: 367px;
+    height: 297px;
+    margin-top: 40px;
+    margin-left: -75px;
+}
+.Highlights{
+    width: 350px;
+}
+/* --Part-3 Ends-- */
+
+
+/* --Part-4 starts-- */
+.part-4 img{
+    margin-top: 50px;
+    height: 199.7px ;
+    width: 600px;
+    align-items: center;
+    justify-content: center;
+}
+/* --Part-4 Ends-- */
+
+/* --Part-5 Start-- */
+.top-5{
+    font-size: 25px;
+    background-image: linear-gradient(rgb(126, 66, 223),rgb(90, 100, 247));
+    color: white;
+    padding: 0px 20px 0px 20px; 
+    border-radius: 20px;
+}
+.top-6{
+    font-size: 45px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 35px;
+}
+/* --Part-5 icon Mod Starts-- */
+
+#amazon{
+    color: rgb(5, 5, 65);
+    margin-right: 20px;
+}
+#amazon:hover{
+    background-color: rgb(224, 192, 192);
+    padding: 4px 4px 4px 4px;
+}
+#ebay{
+    color: yellowgreen;
+    margin-right: 20px;
+}
+#ebay:hover{
+    background-color: rgb(224, 192, 192);
+    padding: 4px 4px 4px 4px;
+}
+
+#mastercard{
+    color:rgba(199, 2, 2, 0.836);
+    margin-right: 20px;
+}
+#mastercard:hover{
+        background-color: rgb(224, 192, 192);
+        padding: 4px 4px 4px 4px;
+}
+#discover{
+    color: rgb(148, 36, 70);
+    margin-right: 20px;
+}
+#discover:hover{
+        background-color: rgb(224, 192, 192);
+        padding: 4px 4px 4px 4px;
+}
+/* --part-5 icon mod ends-- */
+/* --Part-5 Ends-- */
+
+
+/* --Part-6 Starts-- */
+.top-7{
+    color: rgba(18, 28, 75, 0.733);
+    font-size: 21px;
+    color: lightslategray;
+}
+.top-8{
+    font-size: 17px;
+    margin-left: 65px;
+    color: rgb(11, 5, 68);
+}
+/* --Part-6 Ends-- */
+
+/* --Part-7 Icon-Mod Starts-- */
+#fb{
+    color: mediumblue;
+   
+}
+#fb:hover{
+    background-color: rgb(224, 192, 192);
+    padding: 4px 4px 4px 4px;
+}
+#insta{
+    color:rgb(235, 164, 113);
+}
+#insta:hover{
+    background-color: rgb(224, 192, 192);
+    padding: 4px 4px 4px 4px;
+}
+#utube{
+    color: red;
+}
+#utube:hover{
+    background-color: rgb(224, 192, 192);
+    padding: 4px 4px 4px 4px;
+}
+#twitt{
+    color: cyan;
+}
+#twitt:hover{
+    background-color: rgb(224, 192, 192);
+    padding: 4px 4px 4px 4px;
+}
+/* --Part-7 Icon-Mod Ends-- */
+
+/* --Part-7 Starts-- */
+.top-10{
+    font-size: 20px;
+    margin-left: 15px;
+}
+/* --Part-7 Ends-- */
+@media only screen and (max-width:688px){
+    
+    
+.header{
+display: grid;
+grid-template-columns:repeat(1, 1fr) ;
+ }
+.top-2 img{
+    margin-left:-700px;
+    margin-top: 125px;
+    height: 200px;
+    width: 200px;
+
+}
+.players, .blogs{
+      
+grid-template-columns: repeat(1, 1fr);
+}
+.player, .blog{
+     flex-direction: column;
+     margin-right: 10px;
+}
+.top-4 img{
+    margin-left: -5px;
+     
+}
+.Highlights{
+    width: 250px;
+}
+.part-3{
+     flex-direction: column;
+     width: 350px;
+}
+.part-4 img{
+    width:340px;
+    height: 200px;
+    margin-left:-35px;
+}
+.part-5{
+    width: 200px;
+   
+}
+.top-7{
+    margin-left: 8.5px;
+}
+}
